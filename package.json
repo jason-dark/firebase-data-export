@@ -1,0 +1,25 @@
+{
+  "name": "firebase-data-export",
+  "version": "1.0.0",
+  "description": "Exports all user and firestore data from Firebase into JSON or CSV format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-dark/firebase-data-export.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-dark/firebase-data-export/issues"
+  },
+  "homepage": "https://github.com/jason-dark/firebase-data-export#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "shelljs": "^0.8.4"
+  }
+}
