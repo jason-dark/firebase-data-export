@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/jason-dark/firebase-data-export#readme",
   "dependencies": {
+    "cli": "^1.0.1",
+    "firebase-admin": "^8.12.1",
+    "firebase-tools": "^8.2.0",
+    "json-2-csv": "^3.7.0",
     "minimist": "^1.2.5",
-    "shelljs": "^0.8.4"
+    "node-firestore-import-export": "^1.1.0"
   }
 }

@@ -6,22 +6,15 @@ Install:
 - Node > 10
 - Firebase cli (`npm install -g firebase-tools`)
 
+Open up this project's root directory, then:
+- Run `npm install`
+
+Place a service account for your Firebase account in the root of the project directory. It has to be named `service-account.json`
+
 You must also sign into Firebase from the cli (`firebase login`)
 
 ## Exporting your data
-Open up the terminal / cmd prompt and CD to the root of this project. Run commands as per below.
+Open up the terminal / cmd prompt and CD to the root of this project. Run this command:
 
-### Exporting all data:
-node export.js --project=project_name
+`node export.js --project=project_name`
 
-### Exporting user data only:
-node export.js --user-data --project=project_name
-
-### Exporting user data only, without password hashes:
-node export.js --user-data --no-hashes --project=project_name
-
-### Exporting Firestore data only:
-node export.js --firestore-data --project=project_name
-
-### Exporting Firestore data from a single collection (top level collections only):
-node export.js --firestore-data --collection "example_collection_name" --project=project_name
